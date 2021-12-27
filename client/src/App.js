@@ -1,11 +1,11 @@
-import Profile from './PortfolioContainer/Home/Profile';
 import './App.css';
+import PortfolioContainer from './PortfolioContainer/PortfolioContainer';
 
 function App() {
   return (
     <div className="App">
       {/* render Components here */}
-      <Profile />
+      <PortfolioContainer />
     </div>
   );
 }
