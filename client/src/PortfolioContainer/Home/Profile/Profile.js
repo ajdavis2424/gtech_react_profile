@@ -1,5 +1,6 @@
 import React from "react";
 import Typical from "react-typical";
+import ScrollService from "../../../utilities/ScrollService";
 import "./Profile.css"; 
 
 export default function Profile() {
@@ -9,9 +10,12 @@ export default function Profile() {
         <div className="profile-details">
           <div className="colz">
             <div className="colz-icon">
-              {/* <a href='#'>
-                        <i className='fa fa-instagram'></i>
-                    </a> */}
+              <a href='https://www.linkedin.com/in/alexander-davis-3674716a/'>
+                        <i className="fa fa-linkedin-square"></i>
+                    </a>
+              <a href='https://github.com/ajdavis2424'>
+                        <i className="fa fa-github"></i>
+                    </a>
               <a href="https://www.youtube.com/channel/UCKNL0ZMFc0ELUTxp5mxHkVg">
                 <i className="fa fa-youtube-square"></i>
               </a>
@@ -21,7 +25,7 @@ export default function Profile() {
             </div>
           </div>
 
-          <div className="profile-detail-name">
+          <div className="profile-details-name">
             <span className="primary-text">
               {" "}
               Hello, I'm{" "}
@@ -55,13 +59,17 @@ export default function Profile() {
               </span>
             </span>
           </div>
+          
           <div className="profile-options">
-            <button className="btn primary-btn"> Hire Me </button>
-            <a href="resumehere" download="full stack resum.pdk">
+            <button className="btn primary-btn"
+            onClick={() => ScrollService.scrollHandler.scrollToHireMe()}
+            > Hire Me </button>
+            <a href="Full-Stack Resume 2021 (1).pdf" download="Alexander J Davis.pdf">
               <button className="btn highlighted-btn">Get Resume</button>
             </a>
           </div>
         </div>
+        
         <div className="profile-picture">
           <div className="profile-picture-background"></div>
         </div>
