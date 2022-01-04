@@ -55,7 +55,7 @@ export default function Profile() {
                 />
               </h1>
               <span className="profile-role-tagline">
-                Building applications with front and back-end skils.
+                Building applications with front and back-end skills.
               </span>
             </span>
           </div>

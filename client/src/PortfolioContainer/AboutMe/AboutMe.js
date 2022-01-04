@@ -14,7 +14,7 @@ export default function AboutMe(props) {
 
   const SCREEN_CONSTSANTS = {
     description:
-      "I'm a Full Stack Web Developer with a background in management, employee development, and customer service. Earned certificate in Full-Stack Web Development through Georgia Tech , and earned a MBA from Saint Leo University in 2020. While completing my certificate program, I excelled in MERN, SQL & NoSQL, and Javascript projects.  ",
+      "I'm a Full-Stack Web Developer with a background in management, employee development, and customer service. Earned certificate in Full-Stack Web Development at Georgia Tech, and earned a M.B.A. from Saint Leo University in 2020. While completing my certificate program, I excelled in MERN, SQL & NoSQL, and Javascript projects.  ",
     highlights: {
       bullets: [
         "Full-Stack Web Development",

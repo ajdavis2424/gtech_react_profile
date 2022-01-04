@@ -62,7 +62,7 @@ export default function Testimonial(props) {
                   <div className="testi-comment">
                     <p>
                       <i className="fa fa-quote-left" />
-                      I honestly fell in love with his project,
+                      I fell in love with Alex's e-commerce project,
                       and couldn't believe he delivered ahead of schedule.
                       <i className="fa fa-quote-right" />
                     </p>

@@ -69,7 +69,7 @@ const Resume = (props) => {
       title: "Weather Dashboard",
       duration: { fromDate: "June 2021", toDate: " Jul 2021" },
       description:
-        "Dashboard with a search bar that allows the user to input a city, and pull its weather. Deployment: https://ajdavis2424.github.io/Weather-App/ ",
+        "Dashboard with a search bar that allows the user to input a city, and pull its weather. When the user inputs a city, a city specific picture will be rendered.",
       subHeading: "Technologies Used: HTML & CSS, Javascript, OpenWeatherMap API",
     },
     {
@@ -124,24 +124,18 @@ const Resume = (props) => {
         />
         <div className="experience-description">
           <span className="resume-description-text">
-            Currently working as MERN stack web and mobile developer and also an
-            online instructor on udemy.
+           - Currently working as a Trainer & Coach at Orangetheory Fitness. 
           </span>
+          <br />
         </div>
         <div className="experience-description">
           <span className="resume-description-text">
-            - Developed an ecommerce website for client with the dashboard for
-            managing the products, managing reviews, users, payment etc. .
+          - Leading and motivating members during their workouts by communicating effectively and efficiently. Helping members set and achieve fitness goals by creating pockets of one on one time to create a plan.
           </span>
           <br />
           <span className="resume-description-text">
-            - Integrated the web app with backend services to create new user
-            onboarding application with dynamic form content.{" "}
-          </span>
-          <br />
-          <span className="resume-description-text">
-            - I stretch my mental capacity to develope UI as per the given
-            designs.
+          - Building a complimentary fitness app that I believe will be very useful for group, and individual training. This app will be more than your generic "fitness app tracker"...
+            {" "}
           </span>
           <br />
         </div>
@@ -168,7 +162,7 @@ const Resume = (props) => {
     </div>,
 
     /* PROJECTS */
-    <div className="resume-screen-container" key="projects">
+    <div className="resume-screen-container" key="projects" >
       {projectsDetails.map((projectsDetails, index) => (
         <ResumeHeading
           key={index}
@@ -184,16 +178,16 @@ const Resume = (props) => {
     /* Interests */
     <div className="resume-screen-container" key="interests">
       <ResumeHeading
-        heading="Teaching"
-        description="Apart from being a tech enthusiast and a code writer, i also love to teach people what i know simply because i believe in sharing."
+        heading="Personal Training & Fitness"
+        description="Outside of programming I love to workout, and teach people the fundamentals of fitness! I am building my own fitness app that I think will reshape the fitness industry."
       />
       <ResumeHeading
-        heading="Music"
-        description="Listening to soothing music is something i can never compromise with, skimming through Spotify's pop songs charts is at times the best stress reliever that i can get my hands on."
+        heading="Self Improvement"
+        description="Everyday I focus on getting better as a web developer. I'm participating in #100DaysOfCoding, and have been using tools like FreeCodeCamp & CodeAcademy. These tool help me stay sharp with what I've learned, or pick up new skills and langages."
       />
       <ResumeHeading
-        heading="Competitive Gaming"
-        description="I like to challenge my reflexes a lot while competing in football games, pushing the rank and having interactive gaming sessions excites me the most."
+        heading="Reading"
+        description='I love reading non-fiction, especially history & basketball books. Two of my favorites are "Lies Across America" by James Loewen, and "Toughness" by Jay Bilas.'
       />
     </div>,
   ];
@@ -220,7 +214,7 @@ const Resume = (props) => {
       >
         <img
           className="bullet-logo"
-          src={require(`../../assets/Resume/${bullet.logoSrc}`).default}
+          src={require(`../../assets/Resume/${bullet.logoSrc}`)}
           alt="B"
         />
         <span className="bullet-label">{bullet.label}</span>
