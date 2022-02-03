@@ -2,11 +2,11 @@
 
 
 This is my React.js portfolio page! This page has links to my various social media pages, programing projects, and allows you to download my resume.
+
 ![Screen Shot 2022-02-03 at 3 42 15 PM](https://user-images.githubusercontent.com/85590236/152425823-5f66790c-ba22-404d-8b35-ab3a6025ceb8.png)
 
-
-
-# Usage
+# Link to page
+https://georgiatech-reactportfolio-ajd.herokuapp.com/ 
 
 ### Install dependencies
 
