@@ -15,17 +15,17 @@ export default function AboutMe(props) {
 
   const SCREEN_CONSTSANTS = {
     description:
-      "I'm a Full-Stack Web Developer with a background in management, employee development, and customer service. Earned certificate in Full-Stack Web Development at Georgia Tech, and earned a M.B.A. from Saint Leo University in 2020. While completing my certificate program, I excelled in MERN, SQL & NoSQL, and Javascript projects.  ",
+      'Full Stack Web Developer with a background in management and employee development. Currently working as a full stack developer with a primary focus on the front-end tasks, unit testing, and SCRUM duties. Earned a certificate in Full Stack Web Development through Georgia Tech, and earned a MBA from Saint Leo University in 2020.  I excel at MERN, SQL & NoSQL, and Javascript projects.  I’m a proactive, resourceful problem-solver looking to continue to evolve as a developer.  ',
     highlights: {
       bullets: [
-        "Full-Stack Web Development",
-        "SQL via MySQL" ,
-        "NoSQL via MongoDB",
-        "OOP",
+        'Full Stack Web Development',
+        'SQL via MySQL',
+        'NoSQL via MongoDB',
+        'OOP',
         "Building REST API's",
-        "MERN Stack Apps",
+        'MERN Stack Apps',
       ],
-      heading: "Here Are A Few Highlights:",
+      heading: 'Here Are A Few Highlights:',
     },
   };
   const renderHighlight = () => {

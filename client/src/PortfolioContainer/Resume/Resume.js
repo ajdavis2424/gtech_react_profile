@@ -93,23 +93,23 @@ const Resume = (props) => {
   const resumeDetails = [
     <div className="resume-screen-container" key="education">
       <ResumeHeading
-        heading={"Georgia Institute of Technology"}
-        subHeading={"Full-Stack Web Development Certificate"}
-        fromDate={"June 2021"}
-        toDate={"December 2021"}
+        heading={'Georgia Institute of Technology'}
+        subHeading={'Full-Stack Web Development Certificate'}
+        fromDate={'June 2021'}
+        toDate={'December 2021'}
       />
 
       <ResumeHeading
-        heading={"Saint Leo University"}
-        subHeading={"Master of Business Administration"}
-        fromDate={"January 2017"}
-        toDate={"August 2020"}
+        heading={'Saint Leo University'}
+        subHeading={'Master of Business Administration'}
+        fromDate={'January 2017'}
+        toDate={'August 2020'}
       />
       <ResumeHeading
-        heading={"University of Tampa "}
+        heading={'University of Tampa '}
         subHeading={"Bachelor of Arts: Gov't & World Affiars"}
-        fromDate={"January 2006"}
-        toDate={"May 2008"}
+        fromDate={'January 2006'}
+        toDate={'May 2008'}
       />
     </div>,
 
@@ -117,25 +117,29 @@ const Resume = (props) => {
     <div className="resume-screen-container" key="work-experience">
       <div className="experience-container">
         <ResumeHeading
-          heading={"Orangetheory Fitness"}
-          subHeading={"Coach & Trainer"}
-          fromDate={"September 2020"}
-          toDate={"Present"}
+          heading={'NACM Tampa'}
+          subHeading={'Front-end Developer'}
+          fromDate={'March 2022'}
+          toDate={'Present'}
         />
         <div className="experience-description">
           <span className="resume-description-text">
-           - Currently working as a Trainer & Coach at Orangetheory Fitness. 
+            - Currently working as a Front-end developer, and a SCRUM Master for
+            a national credit management company.
           </span>
           <br />
         </div>
         <div className="experience-description">
           <span className="resume-description-text">
-          - Leading and motivating members during their workouts by communicating effectively and efficiently. Helping members set and achieve fitness goals by creating pockets of one on one time to create a plan.
+            - Maintaining existing components and building out new features for
+            our customers nationwide.
           </span>
           <br />
           <span className="resume-description-text">
-          - Building a complimentary fitness app that I believe will be very useful for group, and individual training. This app will be more than your generic "fitness app tracker"...
-            {" "}
+            - I took on the added responsibilities of SCRUM Master after 8
+            months. My primary focus during a sprint is to make sure all
+            developers have reasonable and understandable acceptance criteria,
+            and any tools necessary to be successful.
           </span>
           <br />
         </div>
@@ -153,7 +157,7 @@ const Resume = (props) => {
           <span>{skill.skill}</span>
           <div className="skill-percentage">
             <div
-              style={{ width: skill.ratingPercentage + "%" }}
+              style={{ width: skill.ratingPercentage + '%' }}
               className="active-percentage-bar"
             ></div>
           </div>
@@ -162,7 +166,7 @@ const Resume = (props) => {
     </div>,
 
     /* PROJECTS */
-    <div className="resume-screen-container" key="projects" >
+    <div className="resume-screen-container" key="projects">
       {projectsDetails.map((projectsDetails, index) => (
         <ResumeHeading
           key={index}
